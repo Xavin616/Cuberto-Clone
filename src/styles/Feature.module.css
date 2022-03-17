@@ -1,0 +1,77 @@
+.body {
+    margin: 20rem auto 0 auto;
+    padding: 0 11.5rem;
+}
+
+.feature {
+    position: relative;
+}
+
+.p {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: -5px;
+}
+
+.p2 {
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.catalog {
+    margin: 8rem auto 0 auto;
+    padding: 0.1px 11.5rem;
+    position: relative;
+}
+
+.item {
+    margin: 21rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    height: 575px;
+    width: 350px;
+}
+
+.image > img {
+    height: inherit;
+    width: inherit;
+}
+
+.wordings {
+    width: 40%;
+}
+
+.header {
+    font-size: 1.2rem;
+}
+
+.itemBody {
+    font-size: 2rem;
+}
+
+.tagword {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.view {
+    margin: 1rem 0  0 0;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 1.1rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 35px;
+    outline: none;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,68 @@
+.header {
+    width: 100%;
+}
+
+.navbar {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuItem {
+    margin: 0 20px;
+}
+
+.menuword {
+    font-size: 1.1rem
+}
+
+.body {
+    margin: 10.4rem auto 0 auto;
+    padding: 0 11.5rem 0 10rem ;
+}
+
+.cube {
+    font-size: 1.4rem
+}
+
+.happen {
+    font-size: 1.15rem;
+}
+
+.main {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.word {
+    position: relative;
+    margin: 0px 45px 0px 0px;
+    font-size: 5.2rem;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.word:hover {
+    -webkit-text-fill-color: black;
+}
+
+.essay {
+    width: 80%;
+    font-size: 1.9rem;
+    line-height: 41px;
+}

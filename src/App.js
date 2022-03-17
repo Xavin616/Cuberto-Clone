@@ -1,9 +1,12 @@
 import './App.css';
+import Heading from './components/Heading'
+import Feature from './components/Feature'
 
 function App() {
   return (
-    <div className="App">
-      Cuberto
+    <div className="main">
+      <Heading />
+      <Feature />
     </div>
   );
 }
