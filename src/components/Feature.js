@@ -1,4 +1,6 @@
 import nico from '../nico.jpg'
+import cover from '../cover.png'
+import cover2 from '../cover2.png'
 import React from 'react'
 import styles from '../styles/Feature.module.css'
 
@@ -16,32 +18,32 @@ function Feature() {
                 <div className={styles.item}>
                     <div className={styles.wordings}>
                         <div className={styles.header}>
-                            Lorem
+                            Riyadh
                         </div>
                         <div className={styles.itemBody}>
                             <h3>
-                                Rapidiously redefine ubiquitous strategic theme areas.
+                               Official website of Riyadh, Saudi Arabia's capital
                             </h3>
                         </div>
                         <div className={styles.tag}>
                             <h4 className={styles.tagword}>
-                                development, product, branding, design 
+                                development, branding, design 
                             </h4>
                         </div>
                     </div>
                     <div className={styles.image}>
-                        <img src={nico} alt="images" />
+                        <img src={cover} alt="images" />
                     </div>
                 </div>
 
                 <div className={styles.item}>
                     <div className={styles.wordings}>
                         <div className={styles.header}>
-                            Lorem
+                            Ferrumpipe
                         </div>
                         <div className={styles.itemBody}>
                             <h3>
-                                Rapidiously redefine ubiquitous strategic theme areas.
+                                Galvanized steel metal frame manufacturer
                             </h3>
                         </div>
                         <div className={styles.tag}>
@@ -51,7 +53,7 @@ function Feature() {
                         </div>
                     </div>
                     <div className={styles.image}>
-                        <img src={nico} alt="images" />
+                        <img src={cover2} alt="images" />
                     </div>
                 </div>
 
